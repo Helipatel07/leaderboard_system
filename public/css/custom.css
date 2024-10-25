@@ -1,0 +1,43 @@
+/* custom.css */
+
+/* Body background and text color */
+body {
+    background-color: #000; /* Dark background */
+    color: #fff; /* Light text */
+}
+
+/* Search input background and text */
+.form-control.bg-secondary {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Table row hover effect */
+.table-hover tbody tr:hover {
+    background-color: #555; /* Lighter gray on hover */
+}
+
+/* Highlight selected user row */
+.bg-primary {
+    border: 5px solid white;
+}
+
+/* Buttons */
+.btn-light {
+    background-color: #eaeaea;
+    color: #000;
+}
+
+input[type="text"] {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    --bs-table-accent-bg: #1a1a1a;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+    --bs-table-accent-bg: #111;
+}
